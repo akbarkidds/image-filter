@@ -1,0 +1,59 @@
+#img, #imgBodyFilter {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0px;
+}
+h2 {
+    text-align: center;
+}
+#imgFilter {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 2% 2%;
+    width: 25%;
+}
+#imgFilterArrow {
+    display: scroll;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+#imgFilterArrow:hover {
+    display: scroll;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    cursor: pointer;
+    transition: 1s
+}
+label {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+input {
+    -webkit-appearance: none;
+    background: radial-gradient(black,red);
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: opacity 1s;
+    width: 100%;
+    height: 100%;
+}
+input:hover{
+    opacity: 1;
+}
+#imgFilterArrowDown {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(-3px, 3px);
+    width: 10%;
+}
+#imgFilterArrowDown:hover{
+    filter: drop-shadow(0px 0px 2px red);
+    transition: 1s;
+}
